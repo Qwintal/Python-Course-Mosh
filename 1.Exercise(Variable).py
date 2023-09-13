@@ -3,12 +3,15 @@
 
 Full_name = "John Smith"
 Age = 20
-is_new_patient = True
+is_new_patient = False
 
 print(Full_name)
 print(Age)
 
 if is_new_patient:
-    print("Yes new patient")
+    print("Yes new patient.")
+
+else:
+    print("No new patient.")
 
 # In this exercise I only had to give variable and not print anything.
