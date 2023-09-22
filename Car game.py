@@ -27,3 +27,5 @@ while True:
 
     else:
         print("I Don't understand.")
+
+# Don't capitalize first words, it just creates confusion.
