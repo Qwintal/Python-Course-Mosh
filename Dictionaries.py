@@ -14,6 +14,6 @@ digits_mapping = {
 }
 output = ""
 for digit in phone:
-    output += digits_mapping.get(digit,"Please enter a 'Number'.") + " "
+    output += digits_mapping.get(digit, "Please enter a 'Number'.") + " "
 
 print(output)
